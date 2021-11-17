@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 
-function TopicBrowser(props) {
-    return
+export default class TopicBrowser extends Component {
+  render() {  
+    return (
         <p>
             "Hello World"
         </p>
+    )
+  }     
 }
 
-export default TopicBrowser
