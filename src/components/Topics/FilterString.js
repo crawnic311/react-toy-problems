@@ -3,16 +3,16 @@ export default class FilterString extends Component {
         super()
 
         this.state = {
-            favoriteWords = [
+            favoriteWords: [
                 "candle",
                 "vapid",
                 "corn",
                 "pills"
             ],
 
-            userInput = '',
+            userInput: '',
 
-            filteredWords = []
+            filteredWords: []
         }
     }
 
